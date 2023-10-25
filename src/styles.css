@@ -1,0 +1,85 @@
+/* styles.css */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+/* Container for the entire app */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* Set the background color you prefer */
+}
+
+/* Container for the two boxes and the button */
+.textbox-and-return-values-container {
+  display: flex;
+  background-color: #f0f0f0; /* Background color for the boxes */
+  padding: 20px;
+  border: 1px solid #ccc; /* Border for the boxes */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 1000px;
+  max-width: 1200px; /* Adjust the max width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Styling for the Textarea */
+.text-area-box {
+  flex: 1; /* Take up remaining space */
+  padding: 10px;
+  background-color: #fff; /* Background color for .text-area-box */
+  border: 1px solid #ccc; /* Border for the textarea */
+  border-radius: 5px;
+  resize: none; /* Disable textarea resizing */
+  overflow-y: scroll;
+}
+
+/* Container for the formatted text */
+.return-values-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Take up remaining space */
+  margin-top: 0rem;
+  margin-left: 20px; /* Add margin to separate containers horizontally */
+  padding: 10px;
+  background-color: #fff; /* Background color for .return-values-container */
+  border: 1px solid #ccc; /* Border for the container */
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+/* Button styling */
+.format-button {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.primary-btn {
+  margin-top: 10px;
+  width: 25%; /* Center the button underneath both boxes */
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+/* Style for the formatted text paragraphs */
+.ones-return-value {
+  margin-top: 0%;
+}
+
+.text-box {
+  resize: none;
+  height: 110%;
+  margin-top: 0px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  overflow-y: hidden;
+}
