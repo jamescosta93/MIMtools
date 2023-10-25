@@ -113,7 +113,7 @@ function App() {
       <div className="textbox-and-return-values-container">
         <div className="text-area-box">
           <TextareaAutosize
-            style={{ width: "100%", height: "100%" }}
+            style={{ width: "100%" }}
             aria-label="minimum height"
             minRows={24}
             maxRows={30}
